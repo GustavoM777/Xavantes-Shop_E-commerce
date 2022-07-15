@@ -1,0 +1,308 @@
+@import url('https://fonts.googleapis.com/css2?family=Calistoga&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+body{
+    background-color: black;
+    
+}
+header{
+    background-color: #fff;
+    text-align: center;
+    padding: 2px;
+    position: sticky;
+    top: 0;
+}
+
+#logo {
+     width: 100px;
+}
+.logo {
+    text-align: left;
+    background-color: black;
+}
+
+#logo2 {
+    width: 370px;
+    color: #fff;
+    text-align: ;
+    position: relative;
+}
+
+.menu {
+    color: #fff;
+    list-style: none;
+    font-size: 0.8rem;
+    background-color: black;
+    text-align: center;
+    padding: 13px;
+}
+
+.menu li {
+    display: inline;
+    padding: 10px;
+}
+
+.links {
+    text-decoration: none;
+}
+
+.links:visited {
+    text-decoration: none;
+    color: white;
+}
+
+#banner {
+    width: 100%;
+}
+
+.offer {
+    list-style: none;
+    display: inline-block;
+    margin: 30px;
+}
+
+.offer a {
+    text-decoration: none;
+}
+
+.plink:visited {
+    color: rgb(16, 148, 236);;
+}
+
+.dlink:visited {
+   color: black;
+}
+
+.description{
+    font-family: 'Calistoga', cursive;
+    color: rgb(16, 148, 236);
+    font-size: 1.4rem;
+}
+
+.price {
+    font-family: 'Calistoga', cursive;
+    font-size: 1.7rem;
+}
+
+h1 {
+    padding: 50px;
+}
+
+.product {
+    width: 250px;
+    margin: 15px;
+}
+
+.pic {
+    width: 200px;
+    height: 200px;
+    margin: 15px;
+}
+
+section{
+    background-color: white;
+    text-align: center;
+}
+
+#merchant {
+    text-align: center;
+    width: 100%;
+}
+
+.menu2, .menu3 {
+    list-style: none;
+    margin: 5px;
+    float: right;
+    padding: 20px;
+    margin-right: 100px;
+    
+}
+
+.menu2 li , .menu3 li , h3 {
+    text-align: left;
+    padding: 3px;
+
+}
+
+.botao {
+    color: White;
+    text-decoration: none;
+    background-color: rgb(16, 148, 236);
+    padding: 10px;
+    margin-bottom: 50px;
+    border-radius: 2px;
+    text-align: center;
+    margin: 0;
+}
+
+.botao:hover {
+    background-color: black;
+}
+
+.alignment {
+    list-style: none;
+    display: inline-block;
+    margin: 30px;
+}
+
+.alignment li , .offer li {
+    padding: 6px;
+}
+
+.name {
+    color: rgb(16, 148, 236);
+}
+
+.satisfeito {
+   
+    border-radius: 50%;
+    text-align: center;
+}
+
+.rodape {
+   
+    text-align: right;
+    position: absolute;
+    right: 150px;
+}
+
+.pag {
+    height: 30px;
+    margin-top: 50px;
+    padding: 4px;
+}
+
+h3{
+    color: rgb(16, 148, 236);
+    padding-bottom: 5px;
+}
+
+footer {
+    color: white;
+    text-align: center;
+    margin: auto;
+}
+
+#whatsapp {
+    position: fixed;
+    width: 20px;
+    bottom: 80px;
+    right: 110px;
+} 
+
+@media screen and (max-width: 400px){
+    #logo {
+        width: 150px;
+    }
+    .logo {
+        text-align: center;
+    }
+    
+    .menu li {
+        display: block;
+        padding: 5px;
+        margin: 3px;
+        max-width: 150px;
+        
+        margin: auto;
+    }
+
+    .slide {
+        height: 200px;
+    }
+
+    #banner {
+        height: 200px;
+    }
+
+    .menu2, .menu3 {
+        list-style: none;
+        margin: 5px;
+        float: none;
+        padding: 20px;
+        text-align: center;
+        max-width: 230px;
+        margin: auto;
+    } 
+
+    .menu2 li , .menu3 li , h3 {
+        text-align: left;
+        padding: 3px;
+    }
+    
+    footer {
+        text-align: center;
+    }
+
+    .rodape {
+   
+        text-align: center;
+    }
+    
+    .pag {
+        height: 22px;
+        margin-top: 50px;
+        padding: 4px;
+    }
+}
+
+@media screen and (max-width: 1095px){
+    #logo {
+        width: 150px;
+    }
+    .logo {
+        text-align: center;
+    }
+    
+    .menu li {
+        display: block;
+        padding: 5px;
+        margin: 3px;
+        max-width: 150px;
+        
+        margin: auto;
+    }
+
+    .slide {
+        height: 200px;
+    }
+
+    #banner {
+        height: 200px;
+    }
+
+    .menu2, .menu3 {
+        list-style: none;
+        margin: 5px;
+        float: none;
+        padding: 20px;
+        text-align: center;
+        max-width: 230px;
+        margin: auto;
+    } 
+
+    .menu2 li , .menu3 li , h3 {
+        text-align: left;
+        padding: 3px;
+    }
+    
+    footer {
+        text-align: center;
+    }
+
+    .rodape {
+   
+        text-align: center;
+    }
+    
+    .pag {
+        height: 22px;
+        margin-top: 50px;
+        padding: 4px;
+    }
+}

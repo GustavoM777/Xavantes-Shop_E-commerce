@@ -190,7 +190,7 @@ footer {
     position: fixed;
     width: 20px;
     bottom: 80px;
-    right: 110px;
+    right: 100px;
 } 
 
 @media screen and (max-width: 400px){
@@ -237,13 +237,16 @@ footer {
     }
 
     .rodape {
-        text-align: center;
+        text-align: right;
+        width: 240px;
     }
     
     .pag {
         height: 22px;
         margin-top: 50px;
         padding: 4px;
+        position: relative;
+        left:80px;
     }
 }
 

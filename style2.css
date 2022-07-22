@@ -59,57 +59,33 @@ header{
     padding: 10px;
 }
 
-.links:visited {
+.links:visited , .links {
     text-decoration: none;
     color: white;
 }
 
-#banner , #merchant  {
-    width: 100%;
-}
-
-.offer {
-    list-style: none;
-    display: inline-block;
-    margin: 30px;
-}
-
-.offer a , .links {
-    text-decoration: none;
-}
-
-.plink:visited , .testiname {
-    color: rgb(16, 148, 236);;
-}
-
-.dlink:visited {
-   color: black;
-}
-
-.description , .price {
-    font-family: 'Calistoga', cursive;
-    color: rgb(16, 148, 236);
-    font-size: 1.4rem ;
-}
-
 h1 {
-    padding: 50px;
+    padding: 30px;
+    text-align: center;
 }
 
-.product {
-    width: 250px;
-    margin: 15px;
+h2 {
+    padding-bottom: 15px;
+    font-size: 1.05rem;
 }
 
-.pic {
-    width: 200px;
-    height: 200px;
-    margin: 15px;
+p {
+    text-align: justify;
+    padding-bottom: 10px;
+}
+
+#text {
+    width: 60%;
+    margin: auto;
 }
 
 section{
     background-color: white;
-    text-align: center;
 }
 
 .menu2 , .menu3 {
@@ -120,37 +96,6 @@ section{
 .menu2 li , .menu3 li , h3 {
     text-align: left;
     padding: 3px;
-}
-
-.botao {
-    color: White;
-    text-decoration: none;
-    background-color: rgb(16, 148, 236);
-    padding: 10px;
-    margin-bottom: 50px;
-    border-radius: 2px;
-    text-align: center;
-    margin: 0;
-}
-
-.botao:hover {
-    background-color: black;
-}
-    
-.testimonial {
-    list-style: none;
-    display: inline-block;
-    margin: 30px;
-}
-
-
-.testimonial li , .offer li {
-    padding: 6px;
-}
-
-.satisfeito {
-    border-radius: 50%;
-    text-align: center;
 }
 
 .base {
@@ -211,9 +156,12 @@ footer {
                 text-align: center;
         }
 
+        h1 {
+            font-size: 1.2rem;
+        }
+
         .menu2 , .menu3 , h3  {
             font-size: 0.9rem;
-            
         }
 
         #guh {
@@ -223,7 +171,6 @@ footer {
         #whatsapp {
             width: 15px;
         } 
-    
 }
 
 @media screen and (max-width: 620px){
@@ -231,7 +178,7 @@ footer {
         width: 150px;
     }
 
-    .sectionlogo{
+    .sectionlogo {
         text-align: center;
     }    
     
@@ -241,10 +188,6 @@ footer {
         margin: 3px;
         max-width: 150px;
         margin: auto;
-    }
-
-    #banner {
-        height: 200px;
     }
 
     .menu2 , .menu3 , .base , #guh , .bandeira {
@@ -303,10 +246,6 @@ footer {
         padding-top: 30px;
     }
 
-    h1 {
-        padding: 20px;
-    }
-
     #email {
         display: none;
     }
@@ -314,5 +253,5 @@ footer {
     #guh {
         font-size: 0.7rem;
         padding: 10px;
-}
+    }
 }

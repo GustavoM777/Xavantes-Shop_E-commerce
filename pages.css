@@ -21,6 +21,10 @@ header{
     top: 0;
 }
 
+strong {
+    color: rgb(16, 148, 236);
+}
+
 .hd1 {
     width: 18px;
     margin-left: 20px;
@@ -160,6 +164,10 @@ footer {
             font-size: 1.2rem;
         }
 
+        #text {
+            width: 80%;
+        }
+
         .menu2 , .menu3 , h3  {
             font-size: 0.9rem;
         }
@@ -188,6 +196,10 @@ footer {
         margin: 3px;
         max-width: 150px;
         margin: auto;
+    }
+
+    #text {
+        width: 80%;
     }
 
     .menu2 , .menu3 , .base , #guh , .bandeira {
@@ -240,6 +252,10 @@ footer {
         text-align: center;
     }   
 
+    #text {
+        width: 80%;
+    }
+
     ul.menu3 , ul.menu2 , #logo2 {
         padding: 0;
         padding-bottom: 30px;
@@ -253,5 +269,11 @@ footer {
     #guh {
         font-size: 0.7rem;
         padding: 10px;
+    }
+}
+
+@media screen and (max-width: 900px){
+    #text {
+        width: 80%;
     }
 }

@@ -102,9 +102,14 @@ h1 {
 }
 
 .pic {
-    width: 200px;
-    height: 200px;
+    width: 220px;
+    height: 220px;
     margin: 15px;
+}
+
+.pic:hover {
+    opacity: 0.7;
+    transition: all .3s ease-in-out;
 }
 
 section{

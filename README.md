@@ -12,11 +12,11 @@
 
 <p align="center">
   <kbd>
-    <img width="500" style="border-radius: 5px" src="frontwindow.gif" alt="Desktop Xavantes Shop">
+    <img width="500" style="border-radius: 5px" src="gif-window.gif" alt="Desktop Xavantes Shop">
   </kbd>
   &nbsp;&nbsp;&nbsp;&nbsp;
   <kbd><br>
-    <img width="200" style="border-radius: 5px" src="frontSmartPhone.gif" alt="Smart Xavantes Shop">
+    <img width="200" style="border-radius: 5px" src="gif-smart.gif" alt="Smart Xavantes Shop">
   </kbd>
   &nbsp;&nbsp;&nbsp;&nbsp;
 </p><br><br><hr>

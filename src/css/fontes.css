@@ -1,0 +1,5 @@
+@font-face {
+    font-family: 'NexaBold';
+    /*OTF é suportado pela maioria dos navegadores mais modernos, menos o internet explorer */
+    src: url('/src/webfonts/NexaBold.otf');
+  }

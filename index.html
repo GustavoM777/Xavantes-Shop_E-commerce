@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -13,16 +14,19 @@
     <link rel="stylesheet" href="src/css/globais.css">
     <!-- Seções -->
     <link rel="stylesheet" href="src/css/secoes/header.css">
+    <link rel="stylesheet" href="src/css/secoes/slider.css">
     <link rel="stylesheet" href="src/css/secoes/main.css">
     <link rel="stylesheet" href="src/css/secoes/footer.css">
 
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-</header>
+    </header>
     <div class="spam">
         <div class="redes-sociais">
-            <a href="https://www.facebook.com/" target="_blanck" id="facebook"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
-            <a href="https://www.instagram.com/" target="_blanck" id="instagram"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+            <a href="https://www.facebook.com/" target="_blanck" id="facebook"><i class="fa fa-facebook-square"
+                    aria-hidden="true"></i></a>
+            <a href="https://www.instagram.com/" target="_blanck" id="instagram"><i class="fa fa-instagram"
+                    aria-hidden="true"></i></a>
         </div>
         <div class="frete-gratis">
             <h5>FRETE GRÁTIS PARA TODO O BRASIL</h5>
@@ -32,138 +36,181 @@
         </div>
     </div>
     <header class="header">
-        <div >
+        <div>
             <div class="logo">
                 <img src="src/imagem/logo.png" alt="Logo Xavantes Shop">
             </div>
             <div class="row">
-            <nav>
-              <input id="menu-hamburguer" type="checkbox" />
-              <label for="menu-hamburguer">
-                <div class="menu">
-                  <span class="hamburguer"></span>
-                </div>
-              </label>
-              <ul>
-                <li><a href="#">| HOME |</a></li>
-                <li><a href="#">| ELETRÔNICOS |</a></li>
-                <li><a href="#">| CASA & VIDEO |</a></li>
-                <li><a href="#">| ÓCULOS |</a></li>
-                <li><a href="#">| PET |</a></li>
-                <li><a href="#">| SOBRE NÓS |</a></li> 
-              </ul>
-            </nav>
-          </div>
+                <nav>
+                    <input id="menu-hamburguer" type="checkbox" />
+                    <label for="menu-hamburguer">
+                        <div class="menu">
+                            <span class="hamburguer"></span>
+                        </div>
+                    </label>
+                    <ul>
+                        <li><a href="#">| HOME |</a></li>
+                        <li><a href="#">| ELETRÔNICOS |</a></li>
+                        <li><a href="#">| CASA & VIDEO |</a></li>
+                        <li><a href="#">| ÓCULOS |</a></li>
+                        <li><a href="#">| PET |</a></li>
+                        <li><a href="#">| SOBRE NÓS |</a></li>
+                    </ul>
+                </nav>
+            </div>
         </div>
     </header>
 
     <main>
-    <section>
-        <div class="banner">
-            <img src="/src/imagem/banner.jpg" alt="Slide-Show-Xavantes-Shop">
-        </div>
-    </section>
+        <section>
+            <div class="slider">
+                <div class="slides">
+                    <input type="radio" name="radio-btn" id="radio1">
+                    <input type="radio" name="radio-btn" id="radio2">
+                    <input type="radio" name="radio-btn" id="radio3">
 
-    <section>
-        <div class="titulo section-title">
-            <h1>PRODUTOS EM DESTAQUE</h1>
-        </div>
-          <div class="container row justify-content-center">
-            <div class="produto">
-                <ul class="produto">
-                    <a href="#"><li><img src="/src/imagem/colete.jpg" alt="Colete para Pet"></li></a>
-                    <a href="#"><li>Colete Personalizado Reflexivo para Cães</a></li>
-                    <a href="#"><li><span>R$ 127,90</span></a></li>
-                </ul>
+                    <div class="slide first">
+                        <img src="src/imagem/slide1.png" alt="SlideShow Xavantes 1">
+                    </div>
+                    <div class="slide">
+                        <img src="src/imagem/slide2.png" alt="SlideShow Xavantes 2">
+                    </div>
+                    <div class="slide">
+                        <img src="src/imagem/slide3.png" alt="SlideShow Xavantes 3">
+                    </div>
+                    <div class="navigation-auto">
+                        <div class="auto-btn1"></div>
+                        <div class="auto-btn2"></div>
+                        <div class="auto-btn3"></div>
+                    </div>
+                </div>
+                <div class="manual-navigation">
+                    <label for="radio1" class="manual-btn"></label>
+                    <label for="radio2" class="manual-btn"></label>
+                    <label for="radio3" class="manual-btn"></label>
+                </div>
             </div>
-            <div class="produto">
-                <ul class="produto">
-                    <a href="#"><li><img src="/src/imagem/pentex.jpg" alt="Pentex - Reparador de Vidro"></li></a>
-                    <a href="#"><li>Super Pentex™ - Reparador de Vidro</a></li>
-                    <a href="#"><li><span>R$ 97,90</span></a></li>
-                </ul>
-            </div>
-            <div class="produto">
-                <ul class="produto">
-                    <a href="#"><li><img src="/src/imagem/minox.jpg" alt="Minoxidil"></li></a>
-                    <a href="#"><li>Minoxidil 10% Dom Pelo</a></li>
-                    <a href="#"><li><span>R$ 54,90</span></a></li>
-                </ul>
-            </div>
-         </div>
-    </section>
+        </section>
 
-    <section>
-        <div class="botao alinhar-itens-no-centro">
-            <a href="">
-                VER TUDO
-            </a>
-        </div>
-    </section>
-
-    <section>
-        <div class="colecao-especial row justify-content-center">
+        <section>
             <div class="titulo section-title">
-                <h1>COLEÇÃO ESPECIAL</h1>
+                <h1>PRODUTOS EM DESTAQUE</h1>
             </div>
-            <a href="#"><img src="/src/imagem/pet2.jpg" alt="Pet"></a>
-            <a href="#"><img src="src/imagem/eletronico2.jpg" alt="Eletrônicos"></a>
-            <a href="#"><img src="src/imagem/cozinha2.jpg" alt="Cozinha"></a>
-            <a href="#"><img src="src/imagem/acessorios.png" alt="Acessórios"></a>
-            <a href="#"><img src="src/imagem/oculos2.jpg" alt="Óculos"></a>
-        </div>
-    </section>
+            <div class="container row justify-content-center">
+                <div class="produto">
+                    <ul class="produto">
+                        <a href="#">
+                            <li><img src="/src/imagem/colete.jpg" alt="Colete para Pet"></li>
+                        </a>
+                        <a href="#">
+                            <li>Colete Personalizado Reflexivo para Cães
+                        </a></li>
+                        <a href="#">
+                            <li><span>R$ 127,90</span>
+                        </a></li>
+                    </ul>
+                </div>
+                <div class="produto">
+                    <ul class="produto">
+                        <a href="#">
+                            <li><img src="/src/imagem/pentex.jpg" alt="Pentex - Reparador de Vidro"></li>
+                        </a>
+                        <a href="#">
+                            <li>Super Pentex™ - Reparador de Vidro
+                        </a></li>
+                        <a href="#">
+                            <li><span>R$ 97,90</span>
+                        </a></li>
+                    </ul>
+                </div>
+                <div class="produto">
+                    <ul class="produto">
+                        <a href="#">
+                            <li><img src="/src/imagem/minox.jpg" alt="Minoxidil"></li>
+                        </a>
+                        <a href="#">
+                            <li>Minoxidil 10% Dom Pelo
+                        </a></li>
+                        <a href="#">
+                            <li><span>R$ 54,90</span>
+                        </a></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
 
-    <section>
-        <div class="beneficios">
-            <img src="src/imagem/merchant.png" alt="Todos os benefícios">
-        </div>
-    </section>
+        <section>
+            <div class="botao alinhar-itens-no-centro">
+                <a href="">
+                    VER TUDO
+                </a>
+            </div>
+        </section>
 
-    <section>
-        <div class="parallax">
-            
-        </div>
-    </section>
+        <section>
+            <div class="colecao-especial row justify-content-center">
+                <div class="titulo section-title">
+                    <h1>COLEÇÃO ESPECIAL</h1>
+                </div>
+                <a href="#"><img src="/src/imagem/pet2.jpg" alt="Pet"></a>
+                <a href="#"><img src="src/imagem/eletronico2.jpg" alt="Eletrônicos"></a>
+                <a href="#"><img src="src/imagem/cozinha2.jpg" alt="Cozinha"></a>
+                <a href="#"><img src="src/imagem/acessorios.png" alt="Acessórios"></a>
+                <a href="#"><img src="src/imagem/oculos2.jpg" alt="Óculos"></a>
+            </div>
+        </section>
 
-    <section>
-        <div class="titulo section-title">
-            <h1>NOSSOS CLIENTE</h1>
-        </div><hr>
-        <div class="container row justify-content-center">
-          <div class="clientes">
-            <ul>
-                <li><img src="/src/imagem/image1.jpg" alt="Cliente Jorge"></li>
-                <li>Estou muito satisfeito, Mt obrigado e sucesso...</li>
-                <li><span>Jorge Alceu Filho</span></li>
-            </ul>
-          </div>
+        <section>
+            <div class="beneficios">
+                <img src="src/imagem/merchant.png" alt="Todos os benefícios">
+            </div>
+        </section>
 
-          <div class="clientes">
-            <ul>
-                <li><img src="/src/imagem/image2.jpg" alt="Cliente Luana"></li>
-                <li>O suporte é muito eficiente mesmo.</li>
-                <li><span>Prof. Luana Pereira</span></li>
-            </ul>
-          </div>
+        <section>
+            <div class="parallax">
 
-          <div class="clientes">
-            <ul>
-                <li><img src="/src/imagem/image3.jpg" alt="Cliente Armando"></li>
-                <li>Meu pedido chegou rapidinho e o atendimento foi excelente.</li>
-                <li><span>Armando L. Martins</span></li>
-            </ul>
-          </div>
-        </div>
-    </section>
+            </div>
+        </section>
 
-    <section>
-        <div class="botao alinhar-itens-no-centro">
-            <a href="">
-                COMPRAR AGORA
-            </a>
-        </div>
-    </section>
+        <section>
+            <div class="titulo section-title">
+                <h1>NOSSOS CLIENTE</h1>
+            </div>
+            <hr>
+            <div class="container row justify-content-center">
+                <div class="clientes">
+                    <ul>
+                        <li><img src="/src/imagem/image1.jpg" alt="Cliente Jorge"></li>
+                        <li>Estou muito satisfeito, Mt obrigado e sucesso...</li>
+                        <li><span>Jorge Alceu Filho</span></li>
+                    </ul>
+                </div>
+
+                <div class="clientes">
+                    <ul>
+                        <li><img src="/src/imagem/image2.jpg" alt="Cliente Luana"></li>
+                        <li>O suporte é muito eficiente mesmo.</li>
+                        <li><span>Prof. Luana Pereira</span></li>
+                    </ul>
+                </div>
+
+                <div class="clientes">
+                    <ul>
+                        <li><img src="/src/imagem/image3.jpg" alt="Cliente Armando"></li>
+                        <li>Meu pedido chegou rapidinho e o atendimento foi excelente.</li>
+                        <li><span>Armando L. Martins</span></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="botao alinhar-itens-no-centro">
+                <a href="">
+                    COMPRAR AGORA
+                </a>
+            </div>
+        </section>
     </main>
 
     <footer>
@@ -171,17 +218,35 @@
             <div class="informacoes row justify-content-evenly">
                 <img src="src/imagem/xavantes.gif" alt="Xavantes Shop Gif">
                 <ul>
-                    <li><h3>INFORMAÇÕES ÚTEIS</h3></li>
-                    <a href="#"><li>Perguntas Frequentes</a></li>
-                    <a href="#"><li>Políticas de Reembolso</a></li>
-                    <a href="#"><li>Políticas de Privacidade</a></li>
-                    <a href="#"><li>Termos de uso</a></li>
-                    <a href="#"><li>Políticas de Frete</a></li>
-                    <a href="#"><li>Trocas e Devoluções</a></li>
-                    <a href="#"><li>Rastreio</a></li>
+                    <li>
+                        <h3>INFORMAÇÕES ÚTEIS</h3>
+                    </li>
+                    <a href="#">
+                        <li>Perguntas Frequentes
+                    </a></li>
+                    <a href="#">
+                        <li>Políticas de Reembolso
+                    </a></li>
+                    <a href="#">
+                        <li>Políticas de Privacidade
+                    </a></li>
+                    <a href="#">
+                        <li>Termos de uso
+                    </a></li>
+                    <a href="#">
+                        <li>Políticas de Frete
+                    </a></li>
+                    <a href="#">
+                        <li>Trocas e Devoluções
+                    </a></li>
+                    <a href="#">
+                        <li>Rastreio
+                    </a></li>
                 </ul>
                 <ul class="contato">
-                    <li><h3>CONTATO</h3></li>
+                    <li>
+                        <h3>CONTATO</h3>
+                    </li>
                     <li>suporte@xavantesshop.com.br</li>
                     <li>whatsapp (13) 99999-9999</li>
                     <li>Horário Comercial</li>
@@ -194,16 +259,20 @@
                 <div class="copy">
                     © 2022 Xavantes shop & Desenvolvido por Gustavo Mattos
                 </div>
-                    <ul>
-                        <li><img src="src/imagem/diners.jpg" alt="diners"></li>
-                        <li><img src="src/imagem/paypal.jpg" alt="paypal"></li>
-                        <li><img src="src/imagem/visa.jpg" alt="visa"></li>
-                        <li><img src="src/imagem/master.jpg" alt="master"></li>
-                        <li><img src="src/imagem/boleto.jpg" alt="boleto"></li>
-                    </ul>
-                <a id="whatsapp" href="https://wa.me/5527999087085?text=Ol%C3%A1+Gustavo%2C+cheguei+atrav%C3%A9s+do+seu+projeto+e-commerce.+Tudo+bem%3F%21" target="_blank"><img src="/src/imagem/wz.png" alt="whatsapp" width="150px"></a>
+                <ul>
+                    <li><img src="src/imagem/diners.jpg" alt="diners"></li>
+                    <li><img src="src/imagem/paypal.jpg" alt="paypal"></li>
+                    <li><img src="src/imagem/visa.jpg" alt="visa"></li>
+                    <li><img src="src/imagem/master.jpg" alt="master"></li>
+                    <li><img src="src/imagem/boleto.jpg" alt="boleto"></li>
+                </ul>
+                <a id="whatsapp"
+                    href="https://wa.me/5527999087085?text=Ol%C3%A1+Gustavo%2C+cheguei+atrav%C3%A9s+do+seu+projeto+e-commerce.+Tudo+bem%3F%21"
+                    target="_blank"><img src="/src/imagem/wz.png" alt="whatsapp" width="150px"></a>
             </div>
         </div>
-    </footer>       
-</body>
+    </footer>
+    <script src="src/js/script.js"></script>
+    </body>
+
 </html>

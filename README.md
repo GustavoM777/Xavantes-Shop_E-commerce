@@ -22,12 +22,18 @@
 </p><br><br><hr>
 
 
-## Tecnologias utilizadas
+## **`Tecnologias utilizadas`**
 - HTML
 - CSS
 - JavaScript
 <br><br>
 <hr>
+
+<h1 align="center">
+  <br>
+  <img src="src/imagem/xavantes.gif" alt="Logo Xavantes Shop"  width="225">
+  <br><br>
+</h1>
 
 Made with 💙 by Gustavo Mattos 👋 [See my LinkedIn](linkedin.com/in/guh-mattos/)
 

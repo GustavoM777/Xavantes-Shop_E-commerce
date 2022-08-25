@@ -4,7 +4,7 @@
   <br><br>
 </h1>
 
-<p align="center">A Lojas Xavantes Shop é um projeto autoral, desenvolvido com a finalidade de atender a demanda real presente no seguimento de  compra de produtos online.</p>
+<p align="center">A Lojas Xavantes Shop é um projeto autoral, desenvolvido com a finalidade de atender a demanda presente no seguimento de  compra de produtos online.</p>
 
 <p align="center"><i>"Seja bem-vindo"</i></p>
 

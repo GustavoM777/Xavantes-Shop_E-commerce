@@ -30,8 +30,8 @@ function minus() {
 }
 
 function plus() {
-    id = number1.value++
-    number1.setAttribute('value', `${id + 1}`)
+    number1.value++
+    number1.setAttribute('value', `${number1.value + 1}`)
 }
 
 console.log(number1.value)

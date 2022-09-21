@@ -20,16 +20,19 @@ function selectPicture4() {
 let number1 = document.getElementById('number')
 
 function minus() {
-    id = number1.value--
-    number1.setAttribute('value',`${id-1}`)
+    if (number1.value > 1) {
+        number1.setAttribute('value', `${number1.value - 1}`)
+        return number1.value--
+    }
+    else {
+        alert('Quantidade não pode ser menor do que 1')
+    }
 }
 
 function plus() {
     id = number1.value++
-    number1.setAttribute('value',`${id+1}`)
+    number1.setAttribute('value', `${id + 1}`)
 }
 
-console.log(minus1)
-console.log(plus1)
 console.log(number1.value)
-console.log(test)
+

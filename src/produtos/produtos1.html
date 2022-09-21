@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reparador de Vidro</title>
+
+    <!-- <link rel="stylesheet" href="../css/fontes.css" /> -->
+    <link rel="stylesheet" href="../css/variaveis.css" />
+    <link rel="stylesheet" href="../css/reset.css" />
+    <!-- Global -->
+    <link rel="stylesheet" href="../css/globais.css">
+    <!-- Seções -->
+    <link rel="stylesheet" href="../css/secoes/header.css">
+    <link rel="stylesheet" href="../css/produtos.css">
+    <link rel="stylesheet" href="../css/pages.css">
+    <link rel="stylesheet" href="../css/secoes/footer.css">
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </header>
+    <div class="spam">
+        <div class="redes-sociais">
+            <a href="https://www.facebook.com/" target="_blanck" id="facebook"><i class="fa fa-facebook-square"
+                    aria-hidden="true"></i></a>
+            <a href="https://www.instagram.com/" target="_blanck" id="instagram"><i class="fa fa-instagram"
+                    aria-hidden="true"></i></a>
+        </div>
+        <div class="frete-gratis">
+            <h5>FRETE GRÁTIS PARA TODO O BRASIL</h5>
+        </div>
+        <div class="email">
+            suporte@xavantesshop.com
+        </div>
+    </div>
+    <header class="header">
+        <div>
+            <div class="logo">
+                <a href="../../index.html">
+                    <img src="../imagem/logo.png" alt="Logo Xavantes Shop">
+                </a>
+            </div>
+            <div class="row">
+                <nav>
+                    <input id="menu-hamburguer" type="checkbox" />
+                    <label for="menu-hamburguer">
+                        <div class="menu">
+                            <span class="hamburguer"></span>
+                        </div>
+                    </label>
+                    <ul>
+                        <li><a href="/index.html">| HOME |</a></li>
+                        <li><a href="#">| ELETRÔNICOS |</a></li>
+                        <li><a href="#">| CASA & VIDEO |</a></li>
+                        <li><a href="#">| ÓCULOS |</a></li>
+                        <li><a href="#">| PET |</a></li>
+                        <li><a href="#">| SOBRE NÓS |</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="produto">
+            <div class="img">
+                <img id="img0" src="../produtos/imagem/1/img0.jpg" alt="imagem do produto">
+                <img id="img1" onclick="selectPicture1()" src="../produtos/imagem/1/img1.jpg" alt="imagem do produto">
+                <img id="img2" onclick="selectPicture2()" src="../produtos/imagem/1/img2.gif" alt="imagem do produto">
+                <img id="img3" onclick="selectPicture3()" src="../produtos/imagem/1/img3.jpg" alt="imagem do produto">
+                <img id="img4" onclick="selectPicture4()" src="../produtos/imagem/1/img4.jpg" alt="imagem do produto">
+            </div>
+            <div class="descricao">
+                <h1>SUPER PENTEX™ - REPARADOR DE VIDRO</h1>
+                <span class="preco">R$157,90</span>
+                <hr>
+                <div class="quantidade">
+                    <span>Quantidade</span>
+                    <div class="icons">
+                        <i onclick="minus()" id='menos' class="fa fa-minus" aria-hidden="true"></i>
+                        <input id="number" type="number" min="1" value="1" min="1">
+                        <i onclick="plus()" id='mais' class="fa fa-plus" aria-hidden="true"></i>
+                    </div>
+                </div>
+                <a id="btn" href="">
+                    COMPRAR AGORA
+                </a>
+                <h2>DETALHES DO PRODUTO</h2>
+                <hr>
+                <img id="cupom" src="../produtos/imagem/1/desc1.jpg" alt="imagem de cupom de desconto">
+                <hr>
+                <img id="beneficios" src="../produtos/imagem/1/mercadopago.jpg" alt="imagem formas de pagamento mercado pago">
+                <hr>
+                <img src="../produtos/imagem/1/desc2.png" alt="headline">
+                <img src="../produtos/imagem/1/desc3.png" alt="headline">
+                <hr>
+                <div class="gif">
+                    <img src="../produtos/imagem/1/desc4.gif" alt="gif de demonstração do produto">
+                </div>
+                <hr>
+                <img src="../produtos/imagem/1/desc5.png" alt="headline">
+                <img src="../produtos/imagem/1/desc6.jpg" alt="imagem de demonstração do produto">
+                <hr>
+                <ul>
+                    <h2>Benefícios</h2>
+                    <li>✔️ Repara rapidamente o seu vidro quebrado, telas e celulares </li>
+                    <li>✔️️ Minimiza a aparência de rachaduras e impede que se espalhem </li>
+                    <li>✔️️ É usado por empresas que reparam para-brisas</li>
+                    <li>✔️️ Economia de dinheiro com novos vidros</li>
+                </ul>
+                <hr>
+                <div class="gif">
+                    <img src="../produtos/imagem/1/desc7.gif" alt="gif de demonstração do produto">
+                </div>
+                <img src="../produtos/imagem/1/desc8.png" alt="headline">
+                <hr>
+                <p>Com muita <strong>segurança</strong> e <strong>praticidade</strong> esse super reparador permite que
+                    qualquer pessoa em <strong>apenas 20 minutos</strong> conserte rachaduras, lascas nos para-brisas,
+                    trincos na tela do celular e imperfeições em vidros em geral. </p>
+                <hr>
+                <img src="../produtos/imagem/1/desc9.png" alt="imagem de demonstração do produto">
+                <img src="../produtos/imagem/1/desc10.png" alt="headline">
+                <hr>
+                <p>O Super Pentex™ - Reparador de Vidro conta com a tecnologia exclusiva POWER FULL ADVANCED com RESINA
+                    ALEMÃ, remove o ar da ruptura, enche-o de resina durável e o torna tão Forte e Firme quanto antes.
+                </p>
+                <p>Para obter melhores resultados, os reparos devem ser feitos o mais rápido possível, após o dano
+                    ocorrer e antes que o mesmo seja contaminado por sujeira ou água. </p>
+                <hr>
+                <div class="gif">
+                    <img src="../produtos/imagem/1/desc11.gif" alt="gif de demonstração do produto">
+                </div>
+                <img src="../produtos/imagem/1/desc12.png" alt="headline">
+                <hr>
+                <p>Um para-brisa ou tela de celular novos podem custar uma fortuna dependendo do modelo!</p>
+                <p>Com muita segurança e praticidade Super Pentex™ fará com que você economize muito dinheiro!</p>
+                <p>Veja o quanto você irá economizar comprando o Super Pentex™ - reparador de vidro profissional - power
+                    full advanced:</p>
+                <hr>
+                <img src="../produtos/imagem/1/desc13.png" alt="imagem de demonstração do produto">
+                <img src="../produtos/imagem/1/desc14.png" alt="headline">
+                <hr>
+                <p>Só quem já perdeu algum material de vidro sabe o quanto é caro e o quanto dói no bolso ter que
+                    comprar um novo, o reparador de Vidro fará com que você economize seu dinheiro até 5 vezes o valor
+                    do produto quebrado.</p>
+                <hr>
+                <img src="../produtos/imagem/1/desc15.png" alt="imagem de demonstração do produto">
+                <h2>O rastreio do produto também pode ser acompanhado pelo nosso site, na aba "Rastreio"</h2>
+                <hr>
+                <img src="../produtos/imagem/1/desc16.png" alt="selo de garantia de 30 dias">
+                <hr>
+                <div class="gif">
+                    <img src="../produtos/imagem/1/desc17.gif" alt="imagem de formas de pagamento">
+                </div>
+                <hr>
+                <ul>
+                    <h2>Suporte ao cliente:</h2>
+                    <li>✔️ Você paga somente o valor descrito em nosso site, fique tranquilo, não haverá cobranças
+                        adicionais de taxas ou impostos.</li>
+                    <li>✔️ Enviamos para todo Brasil com seguro e código de rastreamento online.</li>
+                    <li>✔️ Produto com garantia.</li>
+                    <li>✔️ Suporte ao cliente antes e após a compra, chat de atendimento e Whatsapp.</li>
+                    <li>✔️ Site protegido com os melhores certificados de segurança.</li>
+                </ul>
+                <ul>
+                    <h2>Garantia:</h2>
+                    <li>✔️ Todos os nossos produtos possuem garantia contra defeitos de fabricação.</li>
+                    <li>✔️ Guarde a embalagem com todos acessórios caso precise acionar a garantia.</li>
+                    <li>✔️ Todos os nossos produtos possuem até 7 dias para desistência após recebido.</li>
+                </ul>
+                <hr>
+                <img src="../produtos/imagem/1/garantia.png" alt="imagem de garantia sobre o produto">
+                <h2>COMPRA SEGURA E GARANTIDA</h2>
+                <hr>
+                <img src="../produtos/imagem/1/seguranca-compra.png" alt="imagem de compra-segura">
+                <h2>AMBIENTE DE PAGAMENTO SEGURO</h2>
+                <hr>
+                <img src="../produtos/imagem/1/pagamento-seguro.png" alt="imagem de pagamento-seguro">
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer">
+            <div class="informacoes row justify-content-evenly">
+                <img src="../imagem/xavantes.gif" alt="Xavantes Shop Gif">
+                <ul>
+                    <li>
+                        <h3>INFORMAÇÕES ÚTEIS</h3>
+                    </li>
+                    <a href="../pages/perguntas.html">
+                        <li>Perguntas Frequentes
+                    </a></li>
+                    <a href="../pages/reembolso.html">
+                        <li>Políticas de Reembolso
+                    </a></li>
+                    <a href="../pages/privacidade.html">
+                        <li>Políticas de Privacidade
+                    </a></li>
+                    <a href="../pages/termos.html">
+                        <li>Termos de uso
+                    </a></li>
+                    <a href="../pages/frete.html">
+                        <li>Políticas de Frete
+                    </a></li>
+                    <a href="../pages/trocas.html">
+                        <li>Trocas e Devoluções
+                    </a></li>
+                    <a href="../pages/rastreio.html">
+                        <li>Rastreio
+                    </a></li>
+                </ul>
+                <ul class="contato">
+                    <li>
+                        <h3>CONTATO</h3>
+                    </li>
+                    <li>suporte@xavantesshop.com.br</li>
+                    <li>whatsapp (13) 99999-9999</li>
+                    <li>Horário Comercial</li>
+                    <li>Segunda à Sexta: 8:00 às 19:00</li>
+                    <li>Sábado e Domingo: 9:00 às 14:00</li>
+                    <li>CNPJ 34866294/0001-50</li>
+                </ul>
+            </div>
+            <div class="rodape row justify-content-evenly">
+                <div class="copy">
+                    © 2022 Xavantes shop & Desenvolvido por Gustavo Mattos
+                </div>
+                <ul>
+                    <li><img src="../imagem/diners.jpg" alt="diners"></li>
+                    <li><img src="../imagem/paypal.jpg" alt="paypal"></li>
+                    <li><img src="../imagem/visa.jpg" alt="visa"></li>
+                    <li><img src="../imagem/master.jpg" alt="master"></li>
+                    <li><img src="../imagem/boleto.jpg" alt="boleto"></li>
+                </ul>
+                <a id="whatsapp"
+                    href="https://api.whatsapp.com/send?phone=5527988643733&text=Ol%C3%A1%2C%20Gustavo.%20Tudo%20bem%3F!"
+                    target="_blank"><img src="/src/imagem/wz.png" alt="whatsapp" width="150px"></a>
+            </div>
+        </div>
+    </footer>
+    <script src="js/produto1.js"></script>
+    </body>
+
+</html>

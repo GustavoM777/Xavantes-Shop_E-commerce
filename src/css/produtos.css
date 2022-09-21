@@ -65,6 +65,11 @@ h2 {
     margin: 20px 0;
 }
 
+h4 {
+    margin: 12px 0;
+    font-size: 18px;
+}
+
 .preco {
     color: var(--cor-crimson);
     font-size: 35px;

@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Política de Frete</title>
+    <title>Colete Personalizado</title>
 
     <!-- <link rel="stylesheet" href="../css/fontes.css" /> -->
     <link rel="stylesheet" href="../css/variaveis.css" />
@@ -65,10 +65,10 @@
         <div class="produto">
             <div class="img">
                 <img id="img0" src="../produtos/imagem/img0.jpg" alt="">
-                <img id="img1" src="../produtos/imagem/img1.jpg" alt="">
-                <img id="img2" src="../produtos/imagem/img2.jpg" alt="">
-                <img id="img3" src="../produtos/imagem/img3.jpg" alt="">
-                <img id="img4" src="../produtos/imagem/img4.jpg" alt="">
+                <img id="img1" onclick="selectPicture1()" src="../produtos/imagem/img1.jpg" alt="">
+                <img id="img2" onclick="selectPicture2()" src="../produtos/imagem/img2.jpg" alt="">
+                <img id="img3" onclick="selectPicture3()" src="../produtos/imagem/img3.jpg" alt="">
+                <img id="img4" onclick="selectPicture4()" src="../produtos/imagem/img4.jpg" alt="">
             </div>
             <div class="descricao" style="border-left:3px solid rgb(175, 175, 175);height:100%">
                 <h1>COLETE PERSONALIZADO REFLEXIVO PARA CÃES - TARJAS GRÁTIS LIMITADA</h1>
@@ -77,9 +77,9 @@
                 <div class="quantidade">
                     <span>Quantidade</span>
                     <div class="icons">
-                        <i class="fa fa-minus" aria-hidden="true"></i>
-                        <input type="number">
-                        <i class="fa fa-plus" aria-hidden="true"></i>
+                        <i onclick="minus()" id='menos' class="fa fa-minus" aria-hidden="true"></i>
+                        <input id="number" type="number" value="1">
+                        <i onclick="plus()" id='mais' class="fa fa-plus" aria-hidden="true"></i>
                     </div>
                 </div>
                 <a id="btn" href="">
@@ -269,6 +269,7 @@
             </div>
         </div>
     </footer>
+    <script src="script.js"></script>
     </body>
 
 </html>
